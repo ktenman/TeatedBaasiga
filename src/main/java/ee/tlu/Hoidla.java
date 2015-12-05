@@ -31,6 +31,13 @@ public class Hoidla {
 		SessionFactory vabrik = new Configuration().configure().buildSessionFactory();
 		Session session = vabrik.openSession();
 		Transaction transaction = session.beginTransaction();
+		/*
+		for (Teade teade : teatedAndmebaasist()) {
+			if (teade.id == id) {
+				session.delete(teade);
+			}
+		}
+		*/
 		try {
 			Teade teade = (Teade) session.get(Teade.class, id);
 			session.delete(teade);
