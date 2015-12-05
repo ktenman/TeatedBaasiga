@@ -69,6 +69,7 @@ public class VeebiLeht {
 		}
 	}
 	private void salvestaTeadeAndmebaasi(String string, PrintWriter kirjutaja) {
+		string = string.replace("+", " ");
 		new TeateLisaja(string);
 		kirjutaja.println("Teade salvestatud!");
 	}
