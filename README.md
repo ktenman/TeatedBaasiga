@@ -8,4 +8,4 @@ Kontrolliga veebilehestik
 * Lisa lehestiku töö kontrollimiseks graafiline automaattest: teade lisatakse ja kustutatakse,
 ühtlasi kontrollitakse, kas baasis olevate teadete arvu näidatakse õigesti.
 
-http://estimol.eu:51234/
+Töötav näidis: http://estimol.eu:51234/
